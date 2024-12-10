@@ -131,6 +131,9 @@ var alldata = [
     option4: "Dr Ashfaq Ahmed",
     answer: "Rashid Mahmood Langrial",
   },
+  {
+  question:"Finish",
+  },
 ];
 
 var index1 = 0;
@@ -152,7 +155,7 @@ function renderquestion(){
 }
 
   if (!alldata[index1]) {
-    if(score1 = 15){
+    if(score1 >= 15){
         score.innerHTML = `  <h2>${score1}/15</h2>
         <h3>Osm , I Appreciate You</h3>`
   }
@@ -171,7 +174,7 @@ function renderquestion(){
  else if(score1 >= 0){
     score.innerHTML = `  <h2>${score1}/15</h2>
        <h3>Fail , Try Again</h3>`
- }
+ }else("oh , no very bad")
     // console.log("result:", score1);
     return;
   }
