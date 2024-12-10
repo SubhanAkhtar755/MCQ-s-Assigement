@@ -146,7 +146,7 @@ function renderquestion(){
       if (options[i].value === alldata[index1 - 1].answer) {
         score1++;
           score.innerHTML = `  <h2>${score1}/15</h2>`
-        
+
     }
   }
 }
