@@ -85,13 +85,13 @@ h3{
         justify-content: center;
         align-items: center;
        position: absolute;
-       top: 550px;
+       top: 560px;
        left: 10px;
     }
     h3{
         color: aqua;
         position: absolute;
         left: 19px;
-        top: 615px;
+        top: 625px;
     }
 }
