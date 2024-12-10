@@ -152,24 +152,24 @@ function renderquestion(){
 }
 
   if (!alldata[index1]) {
-    if(score1 >= 15){
-        score.innerHTML = `  <h2>${score1}/13</h2>
+    if(score1 = 15){
+        score.innerHTML = `  <h2>${score1}/15</h2>
         <h3>Osm , I Appreciate You</h3>`
   }
   else if(score1 >= 10){
-     score.innerHTML = `  <h2>${score1}/13</h2>
+     score.innerHTML = `  <h2>${score1}/15</h2>
         <h3>Excellent</h3>`
   }
   else if(score1 >= 7){
-    score.innerHTML = `  <h2>${score1}/13</h2>
+    score.innerHTML = `  <h2>${score1}/15</h2>
        <h3>Good , But Improve it</h3>`
  }
  else if(score1 >= 4){
-    score.innerHTML = `  <h2>${score1}/13</h2>
+    score.innerHTML = `  <h2>${score1}/15</h2>
        <h3>poor , Try Again</h3>`
  }
  else if(score1 >= 0){
-    score.innerHTML = `  <h2>${score1}/13</h2>
+    score.innerHTML = `  <h2>${score1}/15</h2>
        <h3>Fail , Try Again</h3>`
  }
     // console.log("result:", score1);
